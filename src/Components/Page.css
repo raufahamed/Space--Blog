@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&family=Londrina+Outline&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+
+* {
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* color: white; */
+
+}
+
+.bg {
+
+  background-image: url("src/Components/home/background-home-desktop.jpg");
+  background-color: #122224;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+
+}
+
+h2 {
+
+  font-family: 'Montserrat', sans-serif;
+  opacity: 0.5;
+  font-size: 5rem;
+  text-transform: uppercase;
+  color: #fa6edc;
+  letter-spacing: .35rem;
+}
+
+
+.headpara {
+
+  letter-spacing: .45rem;
+  font-family: 'Castoro Titling', serif;
+
+}
+
+.para {
+
+  width: 550px;
+  color: #cccccc;
+  font-size: 1.2rem;
+  font-family: 'Barlow Condensed', sans-serif;
+
+}
+
+.content {
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.btn {
+
+  background-color: transparent;
+  border: 1px solid #fff;
+  padding: 10px 20px;
+  margin-top: 2rem;
+  font-size: 1.2rem;
+  transition: all 0.25s ease-in;
+}
+
+.btn:hover {
+
+  background-color: hsl(0, 0%, 100%);
+  color: black;
+  border: 1px solid rgb(221, 50, 181);
+
+
+}
+
+.astronaut {
+  width: 250px;
+  animation: floating 3s linear infinite;
+  filter: drop-shadow(0 0 0.40rem rgb(255, 233, 159));
+
+}
+
+@keyframes floating {
+
+  0% {
+
+    transform: translate(0, 0);
+  }
+
+  50% {
+
+    transform: translate(15px, 15px);
+  }
+
+  100% {
+
+    transform: translate(0, 0);
+  }
+}
+
+@media(max-width:850px) {
+
+  .content {
+
+    flex-direction: column;
+  }
+ 
+  .contentparagh{
+
+    margin-top: 6rem;
+    
+  }
+  .bg {
+    background-image: url("src/Components/home/background-home-tablet.jpg");
+  
+  }
+
+  .astronaut {
+
+    width: 280px;
+
+  }
+}
+
+@media (max-width:587px) {
+
+  .bg {
+    background-image: url("src/Components/home/background-home-mobile.jpg");
+  
+  }
+
+
+  .astronaut {
+
+    width: 200px;
+
+  }
+
+  h2 {
+
+    font-size: 3.5rem;
+  }
+
+  .para {
+
+    width: 450px;
+    font-size: 1rem;
+    word-spacing: .01rem;
+  }
+}
+
+@media (max-width:480px) {
+
+
+
+  h2 {
+
+    font-size: 3rem;
+  }
+
+  .para {
+
+    width: 350px;
+    font-size: .85rem;
+
+  }
+
+  .headpara {
+
+    letter-spacing: .1rem;
+
+  }
+}
+
+@media (max-width:350px) {
+
+  .para {
+
+    width: 200px;
+
+  }
+
+  .headpara {
+
+    font-size: .45rem;
+  }
+
+  .content {
+
+    /* margin-left: 2rem; */
+    margin-top: 2rem;
+  }
+
+  .astronaut {
+
+    width: 150px;
+  }
+}

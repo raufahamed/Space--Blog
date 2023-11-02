@@ -1,0 +1,15 @@
+.navbar{
+
+    background-color: bisque;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.active{
+
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+}

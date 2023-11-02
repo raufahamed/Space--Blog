@@ -1,0 +1,16 @@
+{
+  "blogs": [
+    {
+      "title": "NASA AND SPACE X",
+      "body": "NASA and SpaceX are targeting 9:16 p.m. EST Tuesday, Nov. 7, to launch the company’s 29th commercial resupply services mission to the International Space Station from Launch Complex 39A at the agency’s Kennedy SpaceCenterinFlorida.Live launch coverage will air on NASA Television, the NASA app, YouTube, and on the agency’s website, with prelaunch events starting Monday, Nov. 6. Learn how to stream NASA TV through a variety of platforms.SpaceX’s Dragon spacecraft will deliver new science investigations, food, supplies, and equipment to the international crew, including NASA’s AWE (Atmospheric Waves Experiment), which studies atmospheric gravity waves to understand the flow of energy through Earth’s upper atmosphere and space.Arrival to the station is planned for shortly before 12 p.m., Thursday, Nov. 9. The SpaceX Dragon spacecraft will dock autonomously to the forward-facing port of the station’s Harmony module The spacecraft is expected to spend about a month attached to the orbital outpost before it returns to Earth with research and return cargo, splashing down off the coast of Florida. The deadline has passed for media accreditation for in-person coverage of this launch. The agency’s media accreditation policy is available online",
+      "author": "James Cawley",
+      "id": 1
+    },
+    {
+      "title": "SPACE WALK",
+      "body": "NASA Television coverage of today’s spacewalk with NASA astronauts Jasmin Moghbeli and Loral O’Hara is now underway and is also available on the NASA app, the space station blog and the agency’s website.The crew members of Expedition 70 are preparing to exit the International Space Station‘s Quest airlock for a spacewalk expected to begin about 8:05 a.m. EDT and last approximately six-and-a-half hours.Moghbeli and O’Hara will exit the station’s Quest airlock to remove an electronics box called the Radio Frequency Group from the station’s truss that was temporarily stowed after a faulty communications antenna was replaced in Dec. 2021. They also will replace one of 12 trundle bearing assemblies on a solar alpha rotary joint. The bearings enable the station’s solar arrays to rotate to track the Sun as the station orbits the Earth to collect and store electricity for power generation for station systems Moghbeli will serve as extravehicular activity (EVA) crew member 1 and will wear a suit with red stripes. O’Hara will serve as extravehicular crew member 2 and will wear an unmarked suit. U.S. EVA 89 will be the first spacewalk for both crew members. Learn more about station activities by following the space station blog, @space_station and @ISS_Research on X, as well as the ISS Facebook and ISS Instagram accounts.",
+      "author": "Mark Gracia",
+      "id": 2
+    }
+  ]
+}
